@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76960" started-at="2020-04-14T13:44:58Z" finished-at="2020-04-14T13:46:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="Testrunner01It.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnner.Testrunner01It@2758fe70]" name="feature" class="Runnner.Testrunner01It"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="76960" started-at="2020-04-14T13:44:58Z" finished-at="2020-04-14T13:46:15Z">
+      <class name="Runnner.Testrunner01It">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runnner.Testrunner01It@2758fe70]" name="setUpClass" is-config="true" duration-ms="5161" started-at="2020-04-14T09:45:01Z" finished-at="2020-04-14T09:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnner.Testrunner01It@2758fe70]" name="feature" duration-ms="42507" started-at="2020-04-14T09:45:09Z" description="Run Cucumber Feature" data-provider="features" finished-at="2020-04-14T09:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MLF to IBM change integration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnner.Testrunner01It@2758fe70]" name="feature" duration-ms="22838" started-at="2020-04-14T09:45:51Z" description="Run Cucumber Feature" data-provider="features" finished-at="2020-04-14T09:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MLF to IBM change integration V.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runnner.Testrunner01It@2758fe70]" name="tearDownClass" is-config="true" duration-ms="414" started-at="2020-04-14T09:46:14Z" finished-at="2020-04-14T09:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runnner.Testrunner01It -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.snow.testcases.TC01_Permissionmodel_SaveRestInXML">
+        <methods>
+          <include name="Perfor_All_Steps_Of_TestCase"/>
+        </methods>
+      </class> <!-- com.snow.testcases.TC01_Permissionmodel_SaveRestInXML -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

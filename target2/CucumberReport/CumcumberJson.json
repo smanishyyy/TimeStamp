@@ -1,0 +1,244 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10660000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeSteps()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Reusable steps to create incident from MLF and bridge with any external vendor",
+        "description": "",
+        "id": "reusable-steps;reusable-steps-to-create-incident-from-mlf-and-bridge-with-any-external-vendor;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 33150200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23011385800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user launch the ITIL view",
+            "match": {
+              "location": "ReusableMLFIncBrigdeWithEX.user_launch_the_ITIL_view()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22214825500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user impersonate the user \"poddepa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "poddepa",
+                  "offset": 27
+                }
+              ],
+              "location": "ReusableStepDefFile.user_impersonate_the_user(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6195966000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "verify the user profile",
+            "match": {
+              "location": "ReusableStepDefFile.verify_the_user_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11543392300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Open new ticket in ServiceNow at MLF",
+            "match": {
+              "location": "ReusableMLFIncBrigdeWithEX.Open_new_ticket_in_ServiceNow_at_MLF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18658952000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Fill description and short description along with all mandatory field",
+            "match": {
+              "location": "ReusableMLFIncBrigdeWithEX.Fill_description_and_short_description_along_with_all_mandatory_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4115969700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "verify if source field does not have value \"Integration from AVAYA\" and take screenshot \"STRY0020671_Inc_ITIL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Integration from AVAYA",
+                  "offset": 44
+                },
+                {
+                  "val": "STRY0020671_Inc_ITIL",
+                  "offset": 89
+                }
+              ],
+              "location": "ReusableMLFIncBrigdeWithEX.verify_if_source_field_does_not_have_value(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251610500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "fetch all the contains field of source field",
+            "match": {
+              "location": "ReusableMLFIncBrigdeWithEX.fetch_all_the_contains_field_of_source_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9580994900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Assign ticket to activated ServiceNow interface which is \"AVAYA_Integ-ServiceDesk-IPCR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AVAYA_Integ-ServiceDesk-IPCR",
+                  "offset": 58
+                }
+              ],
+              "location": "ReusableMLFIncBrigdeWithEX.Assign_ticket_to_activated_ServiceNow(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17214919700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Refresh the page",
+            "match": {
+              "location": "ReusableMLFIncBrigdeWithEX.Refresh_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42106319400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "MLF incident gets bridge with CSC",
+            "match": {
+              "location": "ReusableMLFIncBrigdeWithEX.MLF_incident_gets_bridge_with_CSC()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "take the CSC incident ticket number and take screenshot \"STRY0020671_Inc_ITIL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "STRY0020671_Inc_ITIL",
+                  "offset": 57
+                }
+              ],
+              "location": "ReusableMLFIncBrigdeWithEX.take_the_CSC_incident_ticket_number(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24605367900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Clicks on the resolve button after filling category and subcategory as \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 72
+                }
+              ],
+              "location": "ReusableMLFIncBrigdeWithEX.clicks_on_the_resolve_button(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "Reusable steps",
+    "description": "",
+    "id": "reusable-steps",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/snow/feature/ReusableSteps.feature"
+  }
+]

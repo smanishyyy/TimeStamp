@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Fix for INC03252680 - When requesting Off Catalog Item service, there should be an option to Ship To a user's address instead of just Shipping to a Stockroom" name="Verify the user is able to submit the request with item &quot;Off Catalog Item (Canada, US)&quot;" time="0">
+<system-out><![CDATA[Given User logged into Service Now Portal...................................skipped
+When Clicks on Request service link on the home page........................skipped
+Then user select the requested for as with index "poddepa"..................skipped
+And User gets select the country as "Canada"................................skipped
+When user search the item "Off Catalog Item (Canada, US)"...................skipped
+And Click on the Item link..................................................skipped
+Then Verify the title "Off Catalog Item (Canada, US)".......................skipped
+And Fill all the mandatory fields...........................................skipped
+And click on add cart button and submit the request for HP Item "STRY0020960_TC01".skipped
+And store the tciket number in sheet for row as "<row_Index>"...............skipped
+And User launch the IETL view and search the request........................skipped
+]]></system-out>
+</testcase>
+</testsuite>

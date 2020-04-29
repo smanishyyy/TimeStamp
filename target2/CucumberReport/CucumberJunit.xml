@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="179.543697">
+<testcase classname="Reusable steps" name="Reusable steps to create incident from MLF and bridge with any external vendor" time="179.543697">
+<system-out><![CDATA[Given user launch the ITIL view.............................................passed
+When user impersonate the user "poddepa"....................................passed
+And verify the user profile.................................................passed
+And Open new ticket in ServiceNow at MLF....................................passed
+And Fill description and short description along with all mandatory field...passed
+And verify if source field does not have value "Integration from AVAYA" and take screenshot "STRY0020671_Inc_ITIL".passed
+And fetch all the contains field of source field............................passed
+Then Assign ticket to activated ServiceNow interface which is "AVAYA_Integ-ServiceDesk-IPCR".passed
+And Refresh the page........................................................passed
+When MLF incident gets bridge with CSC......................................passed
+Then take the CSC incident ticket number and take screenshot "STRY0020671_Inc_ITIL".passed
+And Clicks on the resolve button after filling category and subcategory as "1".passed
+]]></system-out>
+</testcase>
+</testsuite>

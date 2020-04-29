@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+<u_company>Avaya Test Customer A</u_company>
+<u_operational_categorization_tier_1>User Level MACD - UC</u_operational_categorization_tier_1>
+  <u_last_name>Chaurasia</u_last_name>
+  <u_ticket_number>CHG0117581</u_ticket_number>
+  <u_entitlement></u_entitlement>
+  <u_urgency>4 - Low</u_urgency>
+  <u_external_ticket_id>TASK04784636</u_external_ticket_id>
+  <u_first_name>Manish</u_first_name>
+  <u_impact>4 - Low</u_impact>
+  <u_description>Remove One-x Agent</u_description>
+  <u_workinfo_notes>Good evening</u_workinfo_notes>
+  <u_email>MChaurasia@jhancock.comTEST</u_email>
+  <u_phone_number></u_phone_number>
+  <u_status>Open</u_status>
+</menu>
